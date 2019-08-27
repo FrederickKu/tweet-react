@@ -1,0 +1,141 @@
+.header-container {
+	border-bottom: 2px solid grey;
+}
+
+.header-container>.arrow,
+.header-container>.star{
+	color: rgb(33, 147, 223);
+}
+
+.header-container>.name{
+	color: #333;
+	font-weight: bold;
+}
+
+.action-container {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1.5px solid grey;
+	width: 100%;
+	align-content: space-around
+}
+
+.action-container>.action-btn{
+	display: inline-block;
+	width: 21%;
+	text-align: center;
+}
+
+.action-container>.action-btn1{
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+}
+
+.action-container>.action-btn2{
+	display: inline-block;
+	width: 30%;
+	text-align:center;
+}
+
+.action-text {
+	display: block;
+	color: #333;
+	font-size:1.2rem;
+	font-weight: bold;
+}
+
+.action-btn1>.action-text{
+	color: rgb(33, 147, 223);
+	border-bottom: 2.5px solid rgb(33, 147, 223);
+}
+
+.maint-container{
+	width: 100%;
+}
+
+.individual-container{
+	width: 100%;
+	border-bottom: 1px solid grey;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.profile-img-container{
+	width: 10%;
+	height:10%;
+	background-size:cover;
+	border-radius: 50%;
+}
+
+.profile-img-container:after{
+	display:block;
+	content:" ";
+	width:100%;
+	padding-bottom:100%;
+}
+
+.profile-text-container {
+	width: 80%;
+}
+
+.user-details {
+	width: 90%;
+	margin: 0;
+	display: inline-block;
+}
+
+.user-details>span {
+	display: inline-block;
+}
+
+.user-details>.name{
+	font-weight: bold;
+}
+
+.user-details>.star{
+	color: rgb(33, 147, 223);
+}
+
+.user-details>.dot{
+	color: grey;
+}
+
+.user-details-arrow {
+	width: 10%;
+	text-align: right;
+	display: inline-block;
+}
+
+.user-details-arrow>span{
+	color: grey;
+}
+
+.tweet-text {
+	width: 100%;
+}
+
+.profile-button-container {
+	width: 90%;
+	display:inline-block;
+}
+
+.profile-button-container>span{
+	color: grey;
+}
+
+.profile-button-container>.retweet{
+	margin: 0 5.5rem;
+}
+
+.profile-upload-container {
+	width:10%;
+	display: inline-block;
+	color: grey;
+	text-align:right;
+}
+
+
+.symbol {
+	color: rgb(33, 147, 223);
+}
